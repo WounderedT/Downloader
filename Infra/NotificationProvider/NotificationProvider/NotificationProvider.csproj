@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Downloader.Infra.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+    <ItemGroup>
+	    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+	    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.2" />
+    </ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\NotificationProvider.Abstractions\NotificationProvider.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

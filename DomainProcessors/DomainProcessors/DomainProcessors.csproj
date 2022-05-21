@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <AssemblyName>Downloader.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.16.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\HttpDocumentHandler\HttpDocumentHandler.Abstractions\HttpDocumentHandler.Abstractions.csproj" />
+    <ProjectReference Include="..\..\ImageHosts\ImageHosts.Abstractions\ImageHosts.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Shared\Extensions\Extensions.csproj" />
+    <ProjectReference Include="..\DomainProcessors.Abstractions\DomainProcessors.Abstractions.csproj" />
+    <ProjectReference Include="..\DomainProcessors.Extensions.UI\DomainProcessors.Extensions.UI.csproj" />
+  </ItemGroup>
+
+</Project>

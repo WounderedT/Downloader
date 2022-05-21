@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDocumentHandler", "HttpDocumentHandler\HttpDocumentHandler.csproj", "{CF055408-06AB-4957-A0D6-620960A07107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDocumentHandler.Abstractions", "HttpDocumentHandler.Abstractions\HttpDocumentHandler.Abstractions.csproj", "{3ADDD370-9B46-482F-B70A-2ED621667D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF055408-06AB-4957-A0D6-620960A07107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF055408-06AB-4957-A0D6-620960A07107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF055408-06AB-4957-A0D6-620960A07107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF055408-06AB-4957-A0D6-620960A07107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADDD370-9B46-482F-B70A-2ED621667D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADDD370-9B46-482F-B70A-2ED621667D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADDD370-9B46-482F-B70A-2ED621667D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADDD370-9B46-482F-B70A-2ED621667D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2191A3E5-9F88-4DA1-9FC4-F80DFCE26D9B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DownloaderWinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DownloaderWinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
